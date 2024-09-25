@@ -24,5 +24,10 @@ namespace Firstapp
                 e.Handled = true;
             }
         }
+
+        private void cmdbuscar_Click(object sender, EventArgs e)
+        {
+            webbrowser.Navigate(txtsearch.Text);
+        }
     }
 }
